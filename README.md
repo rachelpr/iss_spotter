@@ -4,9 +4,9 @@ A little app for space enthusiasts who are interested in spotting the Internatio
 ## The Approach
 We'll be making API requests to three different services to solve this problem.
 
-Fetch our IP Address
-Fetch the geo coordinates (Latitude & Longitude) for our IP
-Fetch the next ISS flyovers for our geo coordinates
+1. Fetch our IP Address
+2. Fetch the geo coordinates (Latitude & Longitude) for our IP
+3. Fetch the next ISS flyovers for our geo coordinates
 
 ## Final Product
 
