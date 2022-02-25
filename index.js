@@ -3,33 +3,17 @@
 
 const { nextISSTimesForMyLocation } = require("./iss");
 
-//This code was temporary to test out fetchMyIP function
-// fetchMyIP((error, ip) => {
-//   if (error) {
-//     console.log("Couldn't find the IP.", error);
-//     return;
-//   }
-//   console.log("Found your IP: ", ip)
-// });
-
-// fetchCoordsByIP("24.224.233.49", (error, coordinates) => {
-//   if (error) {
-//     console.log("It didn't work!", error)
-//     return;
-//   }
-//   console.log("It worked! Returned coordinates:", coordinates)
-// });
-
-// const testCoords = { latitude: '49.27670', longitude: '-123.13000' }
-
-// fetchISSFlyOverTimes(testCoords, (error, passTimes) => {
-//   if (error) {
-//     console.log("It didn't work!", error)
-//     return;
-//   }
-//   console.log("It worked!, it'll be overhead at", passTimes)
-// });
-
+/** 
+ * Input: 
+ *   Array of data objects defining the next fly-overs of the ISS.
+ *   [ { risetime: <number>, duration: <number> }, ... ]
+ * Returns: 
+ *   undefined
+ * Sideffect: 
+ *   Console log messages to make that data more human readable.
+ *   Example output:
+ *   Next pass at Mon Jun 10 2019 20:11:44 GMT-0700 (Pacific Daylight Time) for 468 seconds!
+ */
 nextISSTimesForMyLocation((error, passTimes) => {
   if (error) {
     console.log("It didn't work!", error)
