@@ -11,3 +11,6 @@ We'll be making API requests to three different services to solve this problem.
 ## Final Product
 
 <img width="734" alt="Screen Shot 2022-02-23 at 9 49 44 PM" src="https://user-images.githubusercontent.com/93479462/155441822-d64dce1a-1291-4f48-97f9-ea05d1aeed03.png">
+
+## Additional Notes
+First time using promises, and it was tricky!
