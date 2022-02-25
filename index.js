@@ -20,7 +20,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
     return;
   }
   console.log(passTimes)
-  for (times of passTimes) {
+  for (const times of passTimes) {
     const datetime = new Date(0)
     datetime.setUTCSeconds(times.risetime);
     const duration = times.duration
